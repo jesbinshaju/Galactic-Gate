@@ -148,7 +148,7 @@ export default function BuyerPanel() {
       <header className="bg-white/80 backdrop-blur-sm shadow-soft border-b border-neutral-100">
         <div className="max-w-lg mx-auto px-6 py-5">
           <div className="text-center mb-4">
-            <h1 className="text-2xl font-display font-bold text-accent-700">Buy Spices</h1>
+            <h1 className="text-2xl font-display font-bold text-accent-700">Buy Space Stuff</h1>
             <p className="text-caption text-neutral-500 mt-1">Browse auctions and direct purchases</p>
           </div>
           <div className="flex justify-center gap-3 mb-2">
@@ -187,7 +187,7 @@ export default function BuyerPanel() {
       ) : (
         <div className="px-6 py-4 max-w-lg mx-auto">
           <div className="card p-6 mb-6">
-            <h2 className="text-heading text-xl mb-4 text-center">Search Spices</h2>
+            <h2 className="text-heading text-xl mb-4 text-center">Search Items</h2>
             <div className="flex gap-3 mb-4">
               <input
                 type="text"
@@ -250,7 +250,7 @@ export default function BuyerPanel() {
             ) : filteredListings.length === 0 ? (
               <div className="card p-8 text-center">
                 <div className="text-4xl mb-4">🔍</div>
-                <p className="text-body">No spices found</p>
+                <p className="text-body">No items found</p>
                 <p className="text-caption mt-2">Try adjusting your search or filters</p>
               </div>
             ) : (
@@ -267,7 +267,7 @@ export default function BuyerPanel() {
                       />
                       <div className="flex-1">
                         <h3 className="text-heading text-xl mb-1">{spice?.label}</h3>
-                        <p className="text-caption mb-3">Premium Quality Spice</p>
+                        <p className="text-caption mb-3">Premium Quality  Items</p>
                         <div className="space-y-2 mb-4">
                           <div className="flex justify-between items-center">
                             <span className="text-body">Price:</span>
@@ -278,7 +278,7 @@ export default function BuyerPanel() {
                             <span className="font-medium">{listing.quantity} kg</span>
                           </div>
                           <div className="flex justify-between items-center">
-                            <span className="text-body">Farmer:</span>
+                            <span className="text-body">Seller:</span>
                             <span className="font-medium">{listing.farmer}</span>
                           </div>
                           <div className="flex justify-between items-center">

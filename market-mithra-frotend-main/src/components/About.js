@@ -13,7 +13,7 @@ export default function About() {
         {/* Mission Statement */}
         <div className="bg-white rounded-2xl p-6 shadow-lg mb-6">
           <div className="text-center mb-6">
-            <div className="text-4xl mb-4">🌶️</div>
+            <div className="text-4xl mb-4">🚀</div>
             <h2 className="text-2xl font-bold text-gray-800 mb-4">About Market Mithra</h2>
           </div>
           
@@ -29,19 +29,19 @@ export default function About() {
         {/* Vision */}
         <div className="bg-white rounded-2xl p-6 shadow-lg mb-6">
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-3xl">🌿</span>
+            <span className="text-3xl">👨‍🚀</span>
             <h3 className="text-xl font-bold text-green-700">Our Vision</h3>
           </div>
           
           <p className="text-lg text-gray-700 leading-relaxed">
-            To transform Kerala's spice economy into a <strong>globally competitive and farmer-friendly ecosystem</strong> using data, technology, and innovation.
+            To transform Space economy into a <strong>globally competitive and seller-friendly ecosystem</strong> using data, technology, and innovation.
           </p>
         </div>
 
         {/* What We Do */}
         <div className="bg-white rounded-2xl p-6 shadow-lg mb-6">
           <h3 className="text-xl font-bold text-gray-800 mb-6 text-center">
-            Market Mithra bridges the gap between farmers, traders, and the spice market through:
+            Galactic Gate bridges the gap between sellers, traders, and the space market through:
           </h3>
           
           <div className="space-y-6">
@@ -49,7 +49,7 @@ export default function About() {
               <div className="text-3xl">📊</div>
               <div>
                 <h4 className="text-lg font-bold text-blue-600 mb-2">Live Market Prices</h4>
-                <p className="text-gray-700">Real-time spice price updates to help farmers make informed selling decisions.</p>
+                <p className="text-gray-700">Real-time space item price updates to help sellers make informed selling decisions.</p>
               </div>
             </div>
             
@@ -57,12 +57,12 @@ export default function About() {
               <div className="text-3xl">🤝</div>
               <div>
                 <h4 className="text-lg font-bold text-green-600 mb-2">Direct Trade Marketplace</h4>
-                <p className="text-gray-700">Eliminates middlemen for better farmer profits through direct farmer-to-trader connections.</p>
+                <p className="text-gray-700">Eliminates middlemen for better space profits through direct farmer-to-trader connections.</p>
               </div>
             </div>
             
             <div className="flex items-start gap-4">
-              <div className="text-3xl">🌱</div>
+              <div className="text-3xl"></div>
               <div>
                 <h4 className="text-lg font-bold text-orange-600 mb-2">Farming Insights</h4>
                 <p className="text-gray-700">Spice-specific tips and climate-aware crop insights for higher yields and better quality.</p>

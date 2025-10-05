@@ -122,7 +122,7 @@ export default function Market() {
       const priceInMalayalam = numberToMalayalam(Math.floor(price));
       return `${selectedSpiceInfo.ml} ന്റെ ഇന്നത്തെ വില കിലോഗ്രാമിന് ${priceInMalayalam} രൂപ ആണ്`;
     } else {
-      return `Current price of ${selectedSpiceInfo.label} is ${price} rupees per kilogram`;
+      return `Current price of ${selectedSpiceInfo.label} is ${price} rupees `;
     }
   };
   
@@ -141,7 +141,7 @@ export default function Market() {
             onClick={() => setLanguage(language === 'en' ? 'ml' : 'en')}
             className="bg-neutral-100 hover:bg-neutral-200 px-4 py-2.5 rounded-xl text-sm font-medium text-neutral-700 transition-all duration-200 border border-neutral-200"
           >
-            {language === 'en' ? 'മലയാളം' : 'English'}
+            {language === 'en' ? '' : 'English'}
           </button>
         </div>
       </header>

@@ -123,7 +123,6 @@ const BuyerDashboard = ({ user }) => {
                       <div className="space-y-1">
                         <p className="text-subheading">Final price: <span className="font-bold text-secondary-600">₹{bid.auction?.finalPrice}</span></p>
                         <p className="text-caption">
-                          Quantity: <span className="font-medium">{bid.auction?.productId?.quantity}kg</span>
                         </p>
                       </div>
                     </div>

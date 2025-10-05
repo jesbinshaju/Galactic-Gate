@@ -110,7 +110,7 @@ export default function AdminMarketRates() {
           <div className="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
             <div>
               <h1 className="text-2xl font-bold text-gray-900">Market Rates Management</h1>
-              <p className="text-gray-600 mt-1">Update spice prices for the marketplace</p>
+              <p className="text-gray-600 mt-1">Update space item prices for the marketplace</p>
             </div>
             <a 
               href="/admin"
@@ -125,10 +125,10 @@ export default function AdminMarketRates() {
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Spice
+                    Space
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Current Price (₹/kg)
+                    Current Price 
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Updated At

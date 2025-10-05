@@ -5,11 +5,11 @@ export default function PriceDashboard() {
   const [priceData, setPriceData] = useState({});
 
   const spices = [
-    { name: "cardamom", label: "Astroids", emoji: "🫚", ml: "ഏലം" },
-    { name: "pepper", label: "Lunar Vehicles", emoji: "🌶️", ml: "കുരുമുളക്" },
-    { name: "clove", label: "Lunar Particles", emoji: "🌰", ml: "ഗ്രാമ്പൂ" },
-    { name: "nutmeg", label: "Space Suits", emoji: "🥜", ml: "ജാതിക്ക" },
-    { name: "cinnamon", label: "Rocket Scraps", emoji: "🍂", ml: "കറുവപ്പട്ട" }
+    { name: "cardamom", label: "Astroids", emoji: "", ml: "ഏലം" },
+    { name: "pepper", label: "Lunar Vehicles", emoji: "", ml: "കുരുമുളക്" },
+    { name: "clove", label: "Lunar Particles", emoji: "", ml: "ഗ്രാമ്പൂ" },
+    { name: "nutmeg", label: "Space Suits", emoji: "", ml: "ജാതിക്ക" },
+    { name: "cinnamon", label: "Rocket Scraps", emoji: "", ml: "കറുവപ്പട്ട" }
   ];
 
   // Mock price data - replace with OGD API

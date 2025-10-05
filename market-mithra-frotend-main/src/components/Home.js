@@ -36,10 +36,10 @@ const Home = () => {
 
   const content = {
     en: {
-      title: 'Market Mithra',
-      sell: 'Sell Spices',
-      sellDesc: 'Farmers Panel',
-      buy: 'Buy Spices', 
+      title: 'GALACTIC GATE',
+      sell: 'Sell Space Item',
+      sellDesc: 'Sellers Panel',
+      buy: 'Buy Space Stuff', 
       buyDesc: 'Buyers Panel',
       price: 'Check Market Price',
       priceDesc: 'Live Rates',
@@ -71,7 +71,7 @@ const Home = () => {
             onClick={() => setLanguage(language === 'en' ? 'ml' : 'en')}
             className="px-3 py-1 bg-orange-100 rounded-full text-sm font-medium"
           >
-            {language === 'en' ? 'മലയാളം' : 'English'}
+            {language === 'en' ? '' : 'English'}
           </button>
         </div>
       </header>
@@ -89,7 +89,7 @@ const Home = () => {
             className="w-full bg-green-500 hover:bg-green-600 text-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all"
           >
             <div className="text-center">
-              <div className="text-6xl mb-4">🌿</div>
+              <div className="text-6xl mb-4">🚀</div>
               <h2 className="text-2xl font-bold mb-2">{t.sell}</h2>
               <p className="text-lg opacity-90">{t.sellDesc}</p>
             </div>

@@ -32,12 +32,12 @@ export default function FarmerPanel({ user }) {
   };
 
   const spices = [
-    { name: "pepper", label: "Black Pepper", image: "/images/pepper.png", ml: "കുരുമുളക്" },
-    { name: "cardamom", label: "Cardamom", image: "/images/cardamom.png", ml: "ഏലം" },
-    { name: "clove", label: "Clove", image: "/images/clove.png", ml: "ഗ്രാമ്പൂ" },
-    { name: "nutmeg", label: "Nutmeg", image: "/images/nutmeg.png", ml: "ജാതിക്ക" },
-    { name: "cinnamon", label: "Cinnamon", image: "/images/cinnamon.png", ml: "കറുവപ്പട്ട" },
-    { name: "vanilla", label: "Vanilla", image: "/images/vanilla.png", ml: "വനില" }
+    { name: "pepper", label: "Rocket-Scrap", image: "/images/pepper.png", ml: "" },
+    { name: "cardamom", label: "Asteroid", image: "/images/cardmom.png", ml: "" },
+    { name: "clove", label: "Space Suit", image: "/images/clove.png", ml: "" },
+    { name: "nutmeg", label: "LunarParticles", image: "/images/nutmeg.png", ml: "" },
+    { name: "cinnamon", label: "Lunar Vehicles", image: "/images/cinnamon.png", ml: "" },
+    { name: "vanilla", label: " Astronaut Autograph", image: "/images/vanilla.png", ml: "" }
   ];
 
   const startVoiceInput = () => {
@@ -178,14 +178,14 @@ export default function FarmerPanel({ user }) {
         <div className="max-w-lg mx-auto px-6 py-5">
           <div className="flex justify-between items-center mb-4">
             <div>
-              <h1 className="text-2xl font-display font-bold text-secondary-700">Sell Your Spices</h1>
-              <p className="text-caption text-neutral-500 mt-1">നിങ്ങളുടെ മസാലകൾ വിൽക്കുക</p>
+              <h1 className="text-2xl font-display font-bold text-secondary-700">Sell Your Space Junk</h1>
+              <p className="text-caption text-neutral-500 mt-1"></p>
             </div>
             <button
               onClick={() => setLanguage(language === 'en' ? 'ml' : 'en')}
               className="bg-neutral-100 hover:bg-neutral-200 px-4 py-2.5 rounded-xl text-sm font-medium text-neutral-700 transition-all duration-200 border border-neutral-200"
             >
-              {language === 'en' ? 'മലയാളം' : 'English'}
+              {language === 'en' ? '' : 'English'}
             </button>
           </div>
           <div className="grid grid-cols-2 gap-3">
@@ -262,9 +262,9 @@ export default function FarmerPanel({ user }) {
         {step === 1 && (
           <div>
             <div className="text-center mb-8">
-              <div className="text-4xl mb-3">🌶️</div>
-              <h2 className="text-heading text-2xl mb-2">Select Your Spice</h2>
-              <p className="text-body">Choose the spice you want to sell</p>
+              <div className="text-4xl mb-3"></div>
+              <h2 className="text-heading text-2xl mb-2">Select Your Item</h2>
+              <p className="text-body">Choose the space item you want to sell</p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {spices.map(spice => (

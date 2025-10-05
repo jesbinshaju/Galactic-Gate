@@ -24,7 +24,7 @@ export default function HomePage({ onNavigate }) {
             onClick={() => setLanguage(language === 'en' ? 'ml' : 'en')}
             className="bg-neutral-100 hover:bg-neutral-200 px-4 py-2.5 rounded-xl text-sm font-medium text-neutral-700 transition-all duration-200 border border-neutral-200"
           >
-            {language === 'en' ? 'മലയാളം' : 'English'}
+            {language === 'en' ? '' : 'English'}
           </button>
         </div>
       </header>
@@ -44,17 +44,17 @@ export default function HomePage({ onNavigate }) {
           {/* Sell Spices */}
           <button
             onClick={() => {
-              speak(language === 'en' ? 'Sell your spices' : 'നിങ്ങളുടെ മസാലകൾ വിൽക്കുക');
+              speak(language === 'en' ? 'Sell your space stuff' : 'നിങ്ങളുടെ മസാലകൾ വിൽക്കുക');
               onNavigate('farmer');
             }}
             className="w-full bg-gradient-to-r from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700 text-white p-8 rounded-3xl shadow-medium hover:shadow-strong transform hover:scale-[1.02] transition-all duration-300 group"
           >
             <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🌿</div>
             <h3 className="text-2xl font-display font-bold mb-2">
-              {language === 'en' ? 'Sell Spices' : 'മസാലകൾ വിൽക്കുക'}
+              {language === 'en' ? 'Sell Space Stuff' : 'മസാലകൾ വിൽക്കുക'}
             </h3>
             <p className="text-lg opacity-90 font-medium">
-              {language === 'en' ? 'Farmer Panel' : 'കർഷക പാനൽ'}
+              {language === 'en' ? 'Sellers Panel' : 'കർഷക പാനൽ'}
             </p>
             <div className="mt-4 text-sm opacity-75">
               {language === 'en' ? 'Create auctions • Manage inventory' : 'ലേലം സൃഷ്ടിക്കുക • ഇൻവെന്ററി കൈകാര്യം ചെയ്യുക'}
@@ -64,14 +64,14 @@ export default function HomePage({ onNavigate }) {
           {/* Buy Spices */}
           <button
             onClick={() => {
-              speak(language === 'en' ? 'Buy fresh spices' : 'പുതിയ മസാലകൾ വാങ്ങുക');
+              speak(language === 'en' ? 'Buy space items' : 'പുതിയ മസാലകൾ വാങ്ങുക');
               onNavigate('buyer');
             }}
             className="w-full bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white p-8 rounded-3xl shadow-medium hover:shadow-strong transform hover:scale-[1.02] transition-all duration-300 group"
           >
             <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🛒</div>
             <h3 className="text-2xl font-display font-bold mb-2">
-              {language === 'en' ? 'Buy Spices' : 'മസാലകൾ വാങ്ങുക'}
+              {language === 'en' ? 'Buy Space Items' : 'മസാലകൾ വാങ്ങുക'}
             </h3>
             <p className="text-lg opacity-90 font-medium">
               {language === 'en' ? 'Buyer Panel' : 'വാങ്ങുന്നവരുടെ പാനൽ'}

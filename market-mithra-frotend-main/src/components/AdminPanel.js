@@ -15,11 +15,11 @@ export default function AdminPanel() {
 
   const spiceInfo = {
     pepper: { label: "Astroids", image: "/images/pepper.png" },
-    cardamom: { label: "Lunar Vehicles", image: "/images/cardamom.png" },
+    cardamom: { label: "Lunar Vehicles", image: "/images/cardmom.png" },
     clove: { label: "Lunar Particles", image: "/images/clove.png" },
     nutmeg: { label: "Space Rocket Scrap", image: "/images/nutmeg.png" },
     cinnamon: { label: "Space Suit", image: "/images/cinnamon.png" },
-    vanilla: { label: "Astronomer Autograph", image: "/images/vanilla.png" }
+    vanilla: { label: "AstronomerAutograph", image: "/images/vanilla.png" }
   };
 
   useEffect(() => {
