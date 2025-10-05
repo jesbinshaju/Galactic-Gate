@@ -13,7 +13,7 @@ const AuctionManagement = ({ user }) => {
 
   const fetchAuctions = async () => {
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/seller/products`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL || 'https://galactic-gate.onrender.com'}/api/seller/products`, {
         headers: { 'x-user-id': user._id || user.id }
       });
       if (response.ok) {
@@ -30,7 +30,7 @@ const AuctionManagement = ({ user }) => {
   const closeAuction = async (auctionId) => {
     setActionLoading(auctionId);
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/auctions/${auctionId}/close`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL || 'https://galactic-gate.onrender.com'}/api/auctions/${auctionId}/close`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

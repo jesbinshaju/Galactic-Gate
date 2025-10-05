@@ -53,7 +53,7 @@ const CreateAuctionForm = ({ user, onClose, onSuccess }) => {
     setLoading(true);
     
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/auctions`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL || 'https://galactic-gate.onrender.com'}/api/auctions`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

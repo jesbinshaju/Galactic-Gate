@@ -19,7 +19,7 @@ const AuctionCard = ({ auction, onBidPlaced, showQuickBid = true }) => {
 
     try {
       const user = JSON.parse(localStorage.getItem('user') || '{}');
-      const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/auctions/${auction._id}/bid`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL || 'https://galactic-gate.onrender.com'}/api/auctions/${auction._id}/bid`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -46,7 +46,7 @@ const AuctionCard = ({ auction, onBidPlaced, showQuickBid = true }) => {
   const toggleWatch = async () => {
     try {
       const user = JSON.parse(localStorage.getItem('user') || '{}');
-      const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/auctions/${auction._id}/watch`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL || 'https://galactic-gate.onrender.com'}/api/auctions/${auction._id}/watch`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
