@@ -12,9 +12,9 @@ const Navbar = ({ user }) => {
 
   const navItems = [
     { path: '/', icon: '🏠', label: 'Home', activeColor: 'text-primary-600', hoverColor: 'hover:text-primary-600', bgColor: 'bg-primary-50' },
-    { path: '/farmer', icon: '🌿', label: 'Sell', activeColor: 'text-secondary-600', hoverColor: 'hover:text-secondary-600', bgColor: 'bg-secondary-50' },
-    { path: '/buyer', icon: '🛒', label: 'Buy', activeColor: 'text-accent-600', hoverColor: 'hover:text-accent-600', bgColor: 'bg-accent-50' },
-    { path: '/market', icon: '📊', label: 'Prices', activeColor: 'text-primary-600', hoverColor: 'hover:text-primary-600', bgColor: 'bg-primary-50' },
+    { path: '/farmer', icon: '🌿', label: 'Sell Space Stuff', activeColor: 'text-secondary-600', hoverColor: 'hover:text-secondary-600', bgColor: 'bg-secondary-50' },
+    { path: '/buyer', icon: '🛒', label: 'Buy Space Stuff', activeColor: 'text-accent-600', hoverColor: 'hover:text-accent-600', bgColor: 'bg-accent-50' },
+    { path: '/market', icon: '📊', label: 'Current Market Price Trend', activeColor: 'text-primary-600', hoverColor: 'hover:text-primary-600', bgColor: 'bg-primary-50' },
   ];
 
   return (

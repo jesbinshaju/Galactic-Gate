@@ -14,12 +14,12 @@ const CreateAuctionForm = ({ user, onClose, onSuccess }) => {
   });
 
   const spices = [
-    { value: 'pepper', label: 'Black Pepper' },
-    { value: 'cardamom', label: 'Cardamom' },
-    { value: 'clove', label: 'Clove' },
-    { value: 'nutmeg', label: 'Nutmeg' },
-    { value: 'cinnamon', label: 'Cinnamon' },
-    { value: 'vanilla', label: 'Vanilla' }
+    { value: 'pepper', label: 'Astroids' },
+    { value: 'cardamom', label: 'Lunar Vehicle' },
+    { value: 'clove', label: 'Lunar Particles' },
+    { value: 'nutmeg', label: 'Space Suit' },
+    { value: 'cinnamon', label: 'Space Rocket-Scraps' },
+    { value: 'vanilla', label: 'Astronomer autograph' }
   ];
 
   const grades = [

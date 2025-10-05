@@ -46,7 +46,7 @@ const Home = () => {
       contact: 'Contact Support',
       about: 'About'
     },
-    ml: {
+   /* ml: {
       title: 'മാർക്കറ്റ് മിത്ര',
       sell: 'മസാല വിൽക്കുക',
       sellDesc: 'കർഷക പാനൽ',
@@ -56,7 +56,7 @@ const Home = () => {
       priceDesc: 'തത്സമയ നിരക്കുകൾ',
       contact: 'സപ്പോർട്ട് ബന്ധപ്പെടുക',
       about: 'കുറിച്ച്'
-    }
+    }*/
   };
 
   const t = content[language];

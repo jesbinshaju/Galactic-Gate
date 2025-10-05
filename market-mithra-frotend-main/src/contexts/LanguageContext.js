@@ -47,15 +47,15 @@ export const translations = {
     order: 'Order',
     
     // Spices
-    pepper: 'Black Pepper',
-    cardamom: 'Cardamom',
-    clove: 'Clove',
-    nutmeg: 'Nutmeg',
-    cinnamon: 'Cinnamon',
-    vanilla: 'Vanilla'
+    pepper: 'Astroids',
+    cardamom: 'Lunar Vehicles',
+    clove: 'Lunar Particlea',
+    nutmeg: 'Space Suits',
+    cinnamon: 'Space Scraps',
+    vanilla: 'Astronaut Autographs'
   },
   
-  ml: {
+ /* ml: {
     // Navigation
     home: 'ഹോം',
     market: 'വിപണി വില',
@@ -97,7 +97,7 @@ export const translations = {
     nutmeg: 'ജാതിക്ക',
     cinnamon: 'കറുവപ്പട്ട',
     vanilla: 'വനില'
-  }
+  }*/
 };
 
 export const LanguageProvider = ({ children }) => {

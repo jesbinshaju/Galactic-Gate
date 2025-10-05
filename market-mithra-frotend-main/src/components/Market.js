@@ -10,12 +10,12 @@ export default function Market() {
   const [language, setLanguage] = useState('en');
 
   const spices = [
-    { name: "pepper", label: "Black Pepper", image: "/images/pepper.png", ml: "കുരുമുളക്" },
-    { name: "cardamom", label: "Cardamom", image: "/images/cardamom.png", ml: "ഏലം" },
-    { name: "clove", label: "Clove", image: "/images/clove.png", ml: "ഗ്രാമ്പൂ" },
-    { name: "nutmeg", label: "Nutmeg", image: "/images/nutmeg.png", ml: "ജാതിക്ക" },
-    { name: "cinnamon", label: "Cinnamon", image: "/images/cinnamon.png", ml: "കറുവപ്പട്ട" },
-    { name: "vanilla", label: "Vanilla", image: "/images/vanilla.png", ml: "വനില" }
+    { name: "pepper", label: "Astroids", image: "/images/pepper.png", ml: "കുരുമുളക്" },
+    { name: "cardamom", label: "Lunar Vehicle", image: "/images/cardamom.png", ml: "ഏലം" },
+    { name: "clove", label: "Lunar Particles", image: "/images/clove.png", ml: "ഗ്രാമ്പൂ" },
+    { name: "nutmeg", label: "Space Suit", image: "/images/nutmeg.png", ml: "ജാതിക്ക" },
+    { name: "cinnamon", label: "Rocket-Scrap", image: "/images/cinnamon.png", ml: "കറുവപ്പട്ട" },
+    { name: "vanilla", label: "Autograph", image: "/images/vanilla.png", ml: "വനില" }
   ];
 
   const numberToMalayalam = (num) => {

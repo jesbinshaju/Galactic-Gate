@@ -14,12 +14,12 @@ export default function AdminPanel() {
   const [loading, setLoading] = useState(false);
 
   const spiceInfo = {
-    pepper: { label: "Black Pepper", image: "/images/pepper.png" },
-    cardamom: { label: "Cardamom", image: "/images/cardamom.png" },
-    clove: { label: "Clove", image: "/images/clove.png" },
-    nutmeg: { label: "Nutmeg", image: "/images/nutmeg.png" },
-    cinnamon: { label: "Cinnamon", image: "/images/cinnamon.png" },
-    vanilla: { label: "Vanilla", image: "/images/vanilla.png" }
+    pepper: { label: "Astroids", image: "/images/pepper.png" },
+    cardamom: { label: "Lunar Vehicles", image: "/images/cardamom.png" },
+    clove: { label: "Lunar Particles", image: "/images/clove.png" },
+    nutmeg: { label: "Space Rocket Scrap", image: "/images/nutmeg.png" },
+    cinnamon: { label: "Space Suit", image: "/images/cinnamon.png" },
+    vanilla: { label: "Astronomer Autograph", image: "/images/vanilla.png" }
   };
 
   useEffect(() => {
